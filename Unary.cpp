@@ -1,3 +1,4 @@
+//Program to overload unary operator.
 #include <iostream>
 using namespace std;
 
@@ -20,7 +21,7 @@ class Add{
 
 }
 void display(){
-    cout<<"value of x "<<x<<endl;
+    cout<<"\nvalue of x "<<x<<endl;
     cout<<"value of y "<<y<<endl;
 }
 
@@ -29,10 +30,9 @@ void display(){
 int main(){
     Add A(2,4);
     cout<<"value of x and y before increment";
-    
     A.display();
     ++A;
-     cout<<"value of y after increment";
+    cout<<"value of x and y after increment";
     A.display();
     return 0;
 
