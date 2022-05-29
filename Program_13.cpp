@@ -4,24 +4,28 @@ using namespace std;
 class Vehicle
 {
     protected:
+    //constructor
     Vehicle(){
         cout<<"\n\tThis is a vehicle."<<endl;
     }
 };
+// Simple Inheritance
 class fourwheeler:public Vehicle{
     public:
     int num_wheels = 4;
-    fourwheeler(){
-        cout<<"\n\tObj with fourwheeler are vehicle."<<endl;
+    fourwheeler(){ // constructor
+        cout<<"\n\tObj of fourwheeler  vehicle."<<endl;
 
     }
 };
+// Multilevel Inheritance
 class car:public fourwheeler{
     public:
     string model;
-    car(){
+    car(){ // constructor
         cout<<"\n\tcar has four wheel."<<endl;
     }
+    // function to display car details
     void display(){
         cout<<"Model: "<<model<<endl;
         cout<<"Wheels: "<<num_wheels<<endl;

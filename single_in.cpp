@@ -1,21 +1,31 @@
 #include <iostream>
 using namespace std;
-class Vehicle{
+class University{
     public:
-    Vehicle()
+    string Name;
+    University(string nm)
     {
-        cout<< "This is a vehicle"<<endl;
+        Name=nm;
+        cout<< "University Name :"<<Name<<endl;
     }
 
 };
-class Car: public Vehicle{
+class Dept: public University{
     public:
-    Car()
+    string Department;
+    string course;
+
+    Dept(string nm, string dpt, string C1):University(nm)
     {
-        cout<<"This is a Car"<<endl;
+        
+        Department=dpt;
+        course=C1;
+        cout<<"DEPARTMENT: "<<Department<<endl;
+        cout<<"Course: "<<course<<endl;
     }
 };
 int main(){
-    Car obj;
+    Dept obj("CUH","B.TECH","CSE");
+    
     return 0;
 }

@@ -16,7 +16,7 @@ class Distance{
         
     }
 
-Distance operator +(Distance D2){
+ Distance operator +(Distance D2){
     Distance D3;
     D3.feet= feet+D2.feet;
     D3.inch= inch +D2.inch;
