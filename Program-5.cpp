@@ -15,12 +15,14 @@ class Account
     {
         bal = a;
     }
-    int depositeMoney(int add_amount)                                    //function to deposite money
+    int depositeMoney(int add_amount)                                    
+    //function to deposite money
     {
         bal= bal+add_amount;
         return bal;
     }
-    int withdrawMoney(int withdraw_money)                                //function to withdraw money
+    int withdrawMoney(int withdraw_money)                               
+     //function to withdraw money
     {
         if(bal>=withdraw_money)
         {
@@ -33,12 +35,14 @@ class Account
             return -1;
         }
     }
-    int interest(int rate,int time)                             //calculate interest
+    int interest(int rate,int time)                            
+     //calculate interest
     {
         bal = (bal*rate*time/100)+bal;
         return bal;
     }
-    void display()                                              //display function to show value
+    void display()                                              
+    //display function to show value
     {
         cout<<"The current balance in your account:"<<bal;
     }
