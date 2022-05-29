@@ -1,4 +1,4 @@
-// Write a program to show multiple inheritance
+// Write a program to show multiple inheritance.
 #include <iostream>
 using namespace std;
 
