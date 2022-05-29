@@ -1,5 +1,4 @@
-// Write a program to show the concept of run 
-//time polymorphism using virtual function.
+// Write a program to show the concept of containership.
 #include <iostream>
 using namespace std;
 class A{
