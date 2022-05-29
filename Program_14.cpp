@@ -1,3 +1,4 @@
+// Write a program to show hybrid inheritance
 #include <iostream>
 using namespace std;
 // Base class

@@ -1,3 +1,4 @@
+// Write a program to show multiple inheritance
 #include <iostream>
 using namespace std;
 
@@ -24,6 +25,7 @@ class Mother{
         cout<<"Hair type is "<<type<<endl;
     }
 };
+//multiple inheritance
 class Child:public Mother, public Father{
     public:
     //function to set both the inherited properties 
