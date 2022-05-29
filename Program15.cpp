@@ -1,4 +1,5 @@
-// Write a program to show the concept of run time polymorphism using virtual function.
+// Write a program to show the concept of run 
+//time polymorphism using virtual function.
 #include <iostream>
 using namespace std;
 class A{
